@@ -1,3 +1,7 @@
+import { inject } from "@vercel/analytics"
+
+inject();
+
 let genres = new Set();
 let genresCount = {};
 let platforms = new Set();
